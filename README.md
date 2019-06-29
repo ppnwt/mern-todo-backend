@@ -1,4 +1,4 @@
-# mern-todo-backend
+# MERN-todo-backend
 Node js backend todo list
 
 ## Index all Todos
