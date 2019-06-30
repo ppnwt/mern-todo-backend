@@ -22,7 +22,7 @@ endpoints: https://scoopy-do-backend.herokuapp.com/todos/add
 }
 
 ## Update
-endpoints: https://scoopy-do-backend.herokuapp.com/todos/update/5d17378ea48cd940332947ea
+endpoints: https://scoopy-do-backend.herokuapp.com/todos/update/:id
 
 {	
 	"todo_title": "Test number 1",
