@@ -8,5 +8,26 @@ Node js backend todo list
 ## Edit
 'todos/:id'
 
+## EXAMPLE
 
+## POST
+endpoints: https://scoopy-do-backend.herokuapp.com/todos/add
 
+{	
+	"todo_title": "Test number 1",
+	"todo_description": "Test number 1",
+	"todo_responsible": "Nope",
+	"todo_priority": "High",
+	"todo_completed": false
+}
+
+## Update
+endpoints: https://scoopy-do-backend.herokuapp.com/todos/update/5d17378ea48cd940332947ea
+
+{	
+	"todo_title": "Test number 1",
+	"todo_description": "Test number 1 for update",
+	"todo_responsible": "Nope",
+	"todo_priority": "Low",
+	"todo_completed": true
+}
